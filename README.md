@@ -14,7 +14,7 @@ and then run Cookie Cutter with an argument pointing to desired template.
 For example, if databricks-templates was cloned into the current directory and user is aiming to create llm fine-tuning project in
 the same current directory:
 ```bash
-cookiecutter databricks-templates/python-package-dbx-llms
+cookiecutter databricks-templates/python-package-dbx-llm
 ```
 
 More information can be found here: https://cookiecutter.readthedocs.io/en/latest/usage.html#grab-a-cookiecutter-template
