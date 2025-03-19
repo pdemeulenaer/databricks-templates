@@ -11,7 +11,7 @@ setup(
     version={{cookiecutter.module_slug}}.__version__ + "+" + datetime.datetime.utcnow().strftime("%Y%m%d.%H%M%S"),
     url="https://databricks.com",
     author="Northell",
-    author_email="philippe.demeulenaer@northell.com",
+    author_email="pdemeulenaer@gmail.com",
     description="wheel file based on {{cookiecutter.project_slug}}/src",
     packages=find_packages(where="./src"),
     package_dir={"": "src"},

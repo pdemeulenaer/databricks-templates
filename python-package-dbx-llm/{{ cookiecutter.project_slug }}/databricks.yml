@@ -34,9 +34,9 @@ targets:
       # If this path results in an error, please make sure you have a recent version of the CLI installed.
       root_path: /Shared/.bundle/staging/${bundle.name}
     run_as:
-      # This runs as philippe.demeulenaer@northell.com in production. We could also use a service principal here,
+      # This runs as pdemeulenaer@gmail.com in production. We could also use a service principal here,
       # see https://docs.databricks.com/dev-tools/bundles/permissions.html.
-      user_name: philippe.demeulenaer@northell.com
+      user_name: pdemeulenaer@gmail.com
 
   # The 'prod' target, used for production deployment.
   # prod:
@@ -49,6 +49,6 @@ targets:
   #     # If this path results in an error, please make sure you have a recent version of the CLI installed.
   #     root_path: /Shared/.bundle/prod/${bundle.name}
   #   run_as:
-  #     # This runs as philippe.demeulenaer@northell.com in production. We could also use a service principal here,
+  #     # This runs as pdemeulenaer@gmail.com in production. We could also use a service principal here,
   #     # see https://docs.databricks.com/dev-tools/bundles/permissions.html.
-  #     user_name: philippe.demeulenaer@northell.com
+  #     user_name: pdemeulenaer@gmail.com
