@@ -24,4 +24,5 @@ Each new template should be a separate directory added to main directory of this
 To create templates, please follow this tutorial: https://cookiecutter.readthedocs.io/en/stable/tutorials/tutorial2.html#tutorial2
 
 # Template maintenance
-
+* This template is maintained by Philippe de Meulenaer
+* This template works with conda version 24.5.0
